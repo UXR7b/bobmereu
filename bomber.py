@@ -12,7 +12,6 @@ print(banner)
 _type = input('\033[36mRu or Eu:\033[0m \033[35m ')
 _phone = ''
 _phone9 = ''
-input('\033[36m(79XXXXXXXXX)>>\033[0m \033[35m ')
 if _type == 'Ru':
 	_phone = input('\033[36m(79XXXXXXXXX)>>\033[0m \033[35m ')
 	if _phone[0] == '+':
